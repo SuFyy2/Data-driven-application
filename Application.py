@@ -12,6 +12,7 @@ class CinemaniaApp:
         self.window.title("Application")
         self.window.geometry("900x600")
         self.window['bg'] = 'white'
+        self.window.resizable(False,False)
 
         # Creating the header and navigation sections.
         self.create_header()
